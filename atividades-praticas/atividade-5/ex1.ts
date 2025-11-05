@@ -39,7 +39,6 @@ while (opcao != 0) {
                 fila.isEmpty() ? console.log(`Não há clientes na fila!`) : fila.printQueue()
                 console.log(`\nO Cliente ${clienteChamado} foi Chamado!`)
             }
-            
             break
         case 0:
             console.log(`Saindo...`)
