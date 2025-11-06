@@ -4,7 +4,7 @@ import readlinesync = require("readline-sync")
 const pilha = new Stack<string>()
 
 let opcao: number | undefined
-let nomeDoLivro: string | undefined
+let nomeDoLivro: string
 
 while (opcao != 0) {
     console.log(`\n***********************************************`)

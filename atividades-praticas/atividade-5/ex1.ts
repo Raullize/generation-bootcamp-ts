@@ -4,7 +4,7 @@ import readlinesync = require("readline-sync")
 const fila = new Queue<string>()
 
 let opcao: number | undefined
-let nome: string | undefined
+let nome: string
 
 while (opcao != 0) {
     console.log(`\n***********************************************`)
